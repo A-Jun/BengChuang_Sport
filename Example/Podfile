@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BengChuang_Sport_Example' do
+  pod 'BengChuang_Sport', :path => '../'
+
+  target 'BengChuang_Sport_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
