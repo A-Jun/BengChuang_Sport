@@ -1,0 +1,1624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010A422A41AE28EC438C72F5789F4E26 /* 后退@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E48E49E85356A48C563908576BB7C /* 后退@3x.png */; };
+		02B628E560D324875AEB1FA706DEE3B3 /* TodaySportView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1B6D8FAF6CA88FBE1E3255EF054CA6A2 /* TodaySportView.xib */; };
+		10A2AF9A9AA64B3C45D3B23F3DC7BA78 /* TrainCourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CC6441DE2D9B1C67344DFDA64051B /* TrainCourseItem.swift */; };
+		115045B608DC28CADD104B79371C72D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		11EF2ED1C32DD7CDDD9B10573EFB6E5E /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */; };
+		1244F23803DA6E9B2C47EDC3D9CB5EC9 /* 日历@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A72B1B4F17A79355CF65E7FDDCD16E /* 日历@2x.png */; };
+		143B17974359F807146B3021DE0900FA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB2BFB6A4D53E504FF1B92F0C23040 /* Date+Extension.swift */; };
+		168F7F216CC61B2E437A51B6ECA5CEB2 /* TrainCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B4E4EF4E1CE5508AB0A591374DDEFD /* TrainCourseView.swift */; };
+		16F1CE026BBBA3397026CD0A6A2C7CE6 /* RJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F41FF57D3328CA1EFD8A1CFFAEF929F /* RJLayout.swift */; };
+		19C68F0D83F2CF4E2DCD72E974484871 /* RJTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB539AB553EBF69F58DBF4CF9153DCA /* RJTextView.swift */; };
+		1C0FC38CCBCCFA2E59ECFE14C26FD1B5 /* 前进@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DEC544A13FEE9B0F2E61272365A876 /* 前进@2x.png */; };
+		2061BFC0F80202BD3DBB96A5B3A2BEF3 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE76677235A85DC42D4D9E9EE571D53 /* Array+Extension.swift */; };
+		2135DB3391845DCA1362D293F24AB391 /* SportReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F224FFC21D446AAB139C00AEA8D7ED /* SportReportCell.swift */; };
+		227FF5941F2F30565416195B2B48D6EB /* 课程1图像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640318AB9BB8833DE80E5366C5823EA7 /* 课程1图像@2x.png */; };
+		22B70C3B90FE36CF3E416B2AE0CB09B1 /* TrainActionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68DEDBD54562ED0291751615BF748B /* TrainActionHeaderView.swift */; };
+		264646F25F28B21FBF6E11B92E5F952E /* 前进@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1ADC760B01F0DD8838E8F81BA551CD /* 前进@3x.png */; };
+		26D08D9797E40D3182C16A6C5E8B78D0 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29CEBE920BC7C494AA98C3728D2D8D28 /* 返回-亮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF60B818DD7137D76A348F4667155D6 /* 返回-亮@2x.png */; };
+		2D306A0895277BA0880F09E251016A96 /* 日历@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B14CC3A0F66D783E374FE843714865 /* 日历@3x.png */; };
+		2DF1557E027D8D2AFEABC227B6CCA1A9 /* 退出@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E5F9F6A7FDAC0B03FF16B48BC8C83 /* 退出@2x.png */; };
+		2E28F0A22A6EC55064052EC6534F4AC4 /* 10ci@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45806FCE7458EA72CB81FFFE4C47934C /* 10ci@2x.png */; };
+		2E8B6C5AA78C976B5D4050125C822BE8 /* SportRecordHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 53CC9865430644EC4FBE15FD955741E5 /* SportRecordHeaderView.xib */; };
+		33129576D3E4B46B70D0AB979D47E467 /* 右箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41DF666AA7F7F94462B7811A3BCF373 /* 右箭头@3x.png */; };
+		3CE26EC91B342CDF01E37EE07434838B /* 退出@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95EF967516F29EB4054E85A5B84A8727 /* 退出@3x.png */; };
+		40F72ED1947E57EA6932B7346EE70D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		428E2582750D4AF370D1C35038D588FA /* SportRecordHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23493EF6FF76D6F2AD0EBFDA05C78B93 /* SportRecordHeaderView.swift */; };
+		44755F218646A3E55B4DA551AD449442 /* TrainCourseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F075AEFB5DE86164B8AFB6778BA1B48 /* TrainCourseHeaderView.swift */; };
+		44A43EEB004FC5B8D21CAE8B149B89CF /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F92E57AD5F93736026D6DB0CCA111 /* Bundle+Extension.swift */; };
+		4595160120545882C0D796C3D2CF7404 /* Target_BengChuang_Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AF040D5ED0F26399628EB27730F5EB /* Target_BengChuang_Sport.swift */; };
+		4CD4D448642C956EAADFB35909EB2247 /* 下载@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F09886235355D25BD812731651908C8 /* 下载@3x.png */; };
+		4EB89E1CD6D9B25CC0D55FD1E0CD7259 /* Pods-BengChuang_Sport_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C90637C540617F60605134CF683CE3D7 /* Pods-BengChuang_Sport_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537B376C1F4EE443C9DC8FC4266D7AE7 /* TrainCourseView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEF285F4DA69499B3509A3CE7F1272 /* TrainCourseView.xib */; };
+		537D7E2CD4A2E1BB98D04CF1B36C600C /* SportReportCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EFA5B7C5082E127BF7F5B4082EB7F /* SportReportCell.xib */; };
+		53CAE05E5C6B4709E4143CBE61BD94E8 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5ED2424392EA86480465AD716C400 /* CTMediator.m */; };
+		53F245A84188FFFE200AFB97856BC3E7 /* BengChuang_Sport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB46EA6DBE430CD2239BD32BAACD3D5 /* BengChuang_Sport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54CBA95D2EA751AADA98DFED03C44F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		57F6FE64EA88737A3211B35A2E777D3D /* TrainingScoreView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C88DAC5D54DCC7B3025C398AE7E4999D /* TrainingScoreView.xib */; };
+		5D97DC311E9235DFCBFF3810856A3D4D /* SportRecordCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 92F0287A15243A49489E08C4B57EA3B0 /* SportRecordCell.xib */; };
+		608EC398C6DAC61443E4C3D117653CCE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457527CF8246B694826D0B10D57AE037 /* Color+Extension.swift */; };
+		61274D421544F4F920E07CFD9B244D4E /* NavBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBA2CDBC4216710EF3A608FA5C38026 /* NavBarBtn.swift */; };
+		65724295587EFC11607CAB6883C7D46D /* 下载-亮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02EA4A1FA831B9F2CD6A55014E3C119E /* 下载-亮@3x.png */; };
+		664D6E691D76FF8F3339FB8502F28A9C /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A940B0341C73F151A885703819F659 /* TrainingView.swift */; };
+		688C5735E8F7FDE9CA541FFAEAE7834F /* 播放@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F81293A924E14DBB18E693D76FB9FD8 /* 播放@3x.png */; };
+		6CCAF0203ECC8BA31C444842ADF7AAA6 /* SportRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7635D863CF2CAB50085252400897387A /* SportRecordVC.swift */; };
+		6D3652B3793521B3A16C13F06EE71861 /* TrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946B5BA7DD4D4C01E26EF11B254C204 /* TrainVC.swift */; };
+		6E57021BA93D1EE27FE816FD1A938494 /* TrainCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4C6E1DCBDBEF78287005B39EA57F49 /* TrainCourseVC.swift */; };
+		6F014FFDD412E80B1680C1E9A48D70D4 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA81A9AC5E4A462C12E430B00D2C8F26 /* NavigationVC.swift */; };
+		7F4670AEEEEB410494A609F1C463CF3F /* RJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224882EE90E3ED77D57DC23A9479693 /* RJTextField.swift */; };
+		7F7DB54310C0F721C03BA2794E2D8272 /* Pods-BengChuang_Sport_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF0504F9588D0B9F5F9F0F832CB87D /* Pods-BengChuang_Sport_Tests-dummy.m */; };
+		83A939106E3AD232B9C4BEFE6A89F0A0 /* SportReportHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A8ED4D1D4AE7C32755D0F609A6F7FA67 /* SportReportHeaderView.xib */; };
+		847851F2C94D5CE1A509A876474D268C /* 优秀@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD640EA19152A6FB2B8A18F98ADBFF8 /* 优秀@2x.png */; };
+		84D3E34BB04A4DCC1718B08C9ED4C719 /* TrainingScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963DF9F773F7CEA96A8294CF0FAB5545 /* TrainingScoreView.swift */; };
+		869BBF755232366ED22436D2CC28BC23 /* JINRI@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B672E552FC7941B9F8A2577603DB27 /* JINRI@3x.png */; };
+		88A6A9374DEFE93663AC7772A377B749 /* RightBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FAB6CF9670AE47C3CA9027589E0BF8 /* RightBtn.swift */; };
+		890512C47DBB7215ED8112174CC458F1 /* TrainActionHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = B9FAAAFD27458A1BA9ECAC927458F89C /* TrainActionHeaderView.xib */; };
+		8A666D4AB957FEC3A61202591ACCE640 /* RJPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B6BFCD199DAF9BC01CCD4029FF194 /* RJPlayer.swift */; };
+		8C324266A997ACFB98A6E78212D81916 /* 下载-亮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6F4D4889FC593DE4E9F88573893891 /* 下载-亮@2x.png */; };
+		8D9ACA359B73FE81C12937716A82E4CB /* JINRI-亮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 248018DCD4DEBC6449024870F1E15EF3 /* JINRI-亮@3x.png */; };
+		8E6AEC7BE1B91E2FF75172F9CC565E1B /* 优秀@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 551BCF985AFC2920194D4CCFDA950C74 /* 优秀@3x.png */; };
+		8F59D3314EBA81FACC8732E8E4BD6C93 /* TrainContentHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = FE65708C3D1BC98D2A1D8906EE03C68C /* TrainContentHeaderView.xib */; };
+		8F8D57559ADB8B4779089A1438A53841 /* guaml@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4438E68430FF2AF0079E0EE2819AF413 /* guaml@3x.png */; };
+		902F8017AFB8F38842FE56C9D41CE9E8 /* Pods-BengChuang_Sport_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6C768B4DBA27CFD0C4B4C55E1CA739 /* Pods-BengChuang_Sport_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91010178D1ADD278EF69D61251BA3DBC /* TrainActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC8443AF5F6A76F6B7FC757F9A6802 /* TrainActionCell.swift */; };
+		926850882F9C69B8D4669CEFD37DA0D2 /* JINRI-亮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C68DBA4721A2A0D2B041F2531F00D3CE /* JINRI-亮@2x.png */; };
+		98548DC2CE64A228D045447D9273439F /* 更多-亮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C52F4EC02B5A5D699DD66943A96CD470 /* 更多-亮@3x.png */; };
+		996149891FA3E4131D844837B09E1A1F /* TrainCourseItem.xib in Sources */ = {isa = PBXBuildFile; fileRef = 422C70E3E4E5936F87126D8D6731A445 /* TrainCourseItem.xib */; };
+		99C2DD7C3B515F9615E136FA90D64655 /* 返回-亮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955115D1088E9661651C8F58BB8393A7 /* 返回-亮@3x.png */; };
+		9AA80186017DD5D9D1CC2A58F36F5293 /* 播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BFB071D7173DC24C9E3896D9F7EEE /* 播放@2x.png */; };
+		9C4D6F5758FBD740058D481B8C65BDD3 /* 更多-亮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA0BBAFF33B0B496B7F93D194279C1 /* 更多-亮@2x.png */; };
+		9C857750E280961D3B2D6A676FE91968 /* TodaySportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E786DC6FF254C999D73FC992A0C2C7 /* TodaySportView.swift */; };
+		9D70FCEAFA34441DF4DC5C88B9F45CBC /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0C16965998B8B47F0FE881F9DD9777 /* TrainCourseHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 265F94DF455CEDB5388476757D79D966 /* TrainCourseHeaderView.xib */; };
+		A1E2BB62201011FC7E38C5BEB9C4460B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */; };
+		A382490D3CC3AB952C9F1A6128F6DA91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		A466FDAE9A8E67C3515A17F59D1C295B /* TrainCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE826A597B08A2AF6D537333E09F14 /* TrainCourseCell.swift */; };
+		A9B839915F803A73E3958EE7F8D20F61 /* 后退@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBF4F898F9AFB175C297147EDEA37A /* 后退@2x.png */; };
+		A9EA6B1381CF45086F03098B3DD3A82F /* Pods-BengChuang_Sport_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7303837C97F838506EB265348E0F7A /* Pods-BengChuang_Sport_Example-dummy.m */; };
+		AA57876A54ACC73E78611365DC213C4E /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */; };
+		AD960E903A91600AEF24E9B628689178 /* TrainingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E56271149B92E8FEA651BAC2AE281 /* TrainingVC.swift */; };
+		ADDF16BD00D9013D2C3169CD6D38D35C /* TrainContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93111A0ED3CABED5D382C1D79BABB706 /* TrainContentVC.swift */; };
+		B674D6D25DCC3FE2358470EABDF03E0B /* RJButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20957BEA889ED8D55BCE5D4F6814162 /* RJButton.swift */; };
+		B6B29945110CE4DE73B47F78A8BA8249 /* 10ci@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D078E3A87A57F7AB27BD5B1C6C8DD2D /* 10ci@3x.png */; };
+		B7412CFB23E2C65BBF8055C262C1EC1A /* JINRI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A9E170CE1CE506EEC3756A4034A18D /* JINRI@2x.png */; };
+		BE1E760876A7AD823CA99A5C9D4F0347 /* CourseDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875E8B163ADAAF5E5D9E1D3D836A96E /* CourseDetailVC.swift */; };
+		C0AAFBC9F02DF5B252862D18D311FF2E /* 地面延伸@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F199B02A4BD503F2C2D454982AA23CBE /* 地面延伸@2x.png */; };
+		C2DE37537C15821712F31B584A734FB5 /* BengChuang_Sport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C742B6687F83491EBD07603D70601CDA /* BengChuang_Sport-dummy.m */; };
+		C3A8B30E5059F80DFA1747211B9835B3 /* RJFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE397E8D3C47C3139A75889466E67F9 /* RJFont.swift */; };
+		C8C9E34A97459FA0B4D479A39445AFFF /* SportRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CEF5C49E4D0031C163878449703606 /* SportRecordCell.swift */; };
+		CC8EFFE2BA2219EFC3773B31DA1EC81E /* guaml@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC0A27ECCD6DE853EF1ED10AA816A0 /* guaml@2x.png */; };
+		D0CA0B811C1EBAA07CA7AB74B2A83BDC /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED0166FD8E4AE9A5ED3A4B05F9DDAB /* String+Extension.swift */; };
+		D181991DC3D9A0241A1A901DECAE1FD6 /* SportReportHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AAAB086653A4C74AD068405E2402F6 /* SportReportHeaderView.swift */; };
+		D5B7F6926AF1A1C13D104C0C49916C4B /* 下载@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E7B91673423089D0107BCAC20BA24F /* 下载@2x.png */; };
+		DCA8A2E33774A335D371D8812D404088 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7E430E312DCA6793A4485A1F52C6E /* GCDTimer.swift */; };
+		E2683ADE0F638E19CBE56E32935BE0C0 /* 地面延伸@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 169611D70E1835C343EC701636A1242F /* 地面延伸@3x.png */; };
+		E50C533867880CE7B7EB40A668995C9B /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D498C32BA9A6008993B58B47050B29 /* StoryboardManager.swift */; };
+		E7605C6B2CF39623A541B39F5B553987 /* TrainActionCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 36DD8E2233B4642E1EEBB436C694F7A4 /* TrainActionCell.xib */; };
+		E80C88566D46D890DF57147C838708C5 /* SportReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC49AB6A8EEDEBE85B159B25A4646A /* SportReportVC.swift */; };
+		E8F0362559E8A37534DD6F9B9256FCEA /* TrainContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A9228F1BD845805EA08FED03586B0 /* TrainContentHeaderView.swift */; };
+		E935A062313B35AB3C238AC7D6D36680 /* BengChuang_Sport.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 302204902738341695DEA6D56C8A64D0 /* BengChuang_Sport.bundle */; };
+		EED6CEF232A4A59F7DDF98D04D144F19 /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD363DCDE1EF8DAB5E29578E0F0CC558 /* TrainCell.swift */; };
+		EFE03E869F3314C41BA068D7FF77BBA4 /* TrainCourseCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 539DE3964DA8F118D6F5A2E86E14DF47 /* TrainCourseCell.xib */; };
+		F11DB30D78E23ECDE004770AA95D2F9C /* TrainingView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2130BF142BB6AD14786947F94CD9A92A /* TrainingView.xib */; };
+		F90D6600BDF1C2B14FAD6A1B2AE2A9F1 /* 课程1图像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF8749693691F825A0F12A85709190 /* 课程1图像@3x.png */; };
+		F9131D303739361F47B823A41F393C28 /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8072ECA7913BC4CA22B4E36F6712681 /* UIView+Xib.swift */; };
+		F9F4860814EBBCE48585599B1D5BF3CF /* TrainCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 13ABB2EE304E75AF6EAF27D29B80C619 /* TrainCell.xib */; };
+		FBA55133034226BCD230DDECC959C306 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD7BC473CA8F336E68E8566630E72A /* UIView+Extension.swift */; };
+		FCA5AA85A28A5AEB86250E0501CD6549 /* 右箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56E7AB746FF3029F69FD1C811B9622 /* 右箭头@2x.png */; };
+		FE2A03BDD97AD32EE4197466CD5DAA46 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CD58CEF77E2BA8D2BDAC96213A0B8 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B3A55C79661C5913AD68DC4D2BE34D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC615350F7E856FF30A1FEB5EC8F632;
+			remoteInfo = BengChuang_Sport;
+		};
+		2BA0CC4A4A5B508FAAB6336C99EBCA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB577610DDBB837169AB456B28F9FE0;
+			remoteInfo = CTMediator;
+		};
+		5512BC1412B02CEE3FA10279C3AF12AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8497106950FE08A7640BB29F8F0DC8E3;
+			remoteInfo = "BengChuang_Sport-BengChuang_Sport";
+		};
+		DBA679347B846FE1F99CD9D62A96E4DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB577610DDBB837169AB456B28F9FE0;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EA4A1FA831B9F2CD6A55014E3C119E /* 下载-亮@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "下载-亮@3x.png"; path = "BengChuang_Sport/Assets/下载-亮@3x.png"; sourceTree = "<group>"; };
+		039A3CC9377B1EF81AE403482E12440E /* Pods-BengChuang_Sport_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BengChuang_Sport_Example-frameworks.sh"; sourceTree = "<group>"; };
+		04A72B1B4F17A79355CF65E7FDDCD16E /* 日历@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "日历@2x.png"; path = "BengChuang_Sport/Assets/日历@2x.png"; sourceTree = "<group>"; };
+		054E56271149B92E8FEA651BAC2AE281 /* TrainingVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingVC.swift; sourceTree = "<group>"; };
+		08A9E170CE1CE506EEC3756A4034A18D /* JINRI@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "JINRI@2x.png"; path = "BengChuang_Sport/Assets/JINRI@2x.png"; sourceTree = "<group>"; };
+		08ED0166FD8E4AE9A5ED3A4B05F9DDAB /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0AF60B818DD7137D76A348F4667155D6 /* 返回-亮@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "返回-亮@2x.png"; path = "BengChuang_Sport/Assets/返回-亮@2x.png"; sourceTree = "<group>"; };
+		13ABB2EE304E75AF6EAF27D29B80C619 /* TrainCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainCell.xib; sourceTree = "<group>"; };
+		169611D70E1835C343EC701636A1242F /* 地面延伸@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "地面延伸@3x.png"; path = "BengChuang_Sport/Assets/地面延伸@3x.png"; sourceTree = "<group>"; };
+		1B6D8FAF6CA88FBE1E3255EF054CA6A2 /* TodaySportView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TodaySportView.xib; sourceTree = "<group>"; };
+		1BDA0BBAFF33B0B496B7F93D194279C1 /* 更多-亮@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "更多-亮@2x.png"; path = "BengChuang_Sport/Assets/更多-亮@2x.png"; sourceTree = "<group>"; };
+		1D8F75597DA200ED2FA9EA5226B3A2AA /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1ADC760B01F0DD8838E8F81BA551CD /* 前进@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "前进@3x.png"; path = "BengChuang_Sport/Assets/前进@3x.png"; sourceTree = "<group>"; };
+		2130BF142BB6AD14786947F94CD9A92A /* TrainingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainingView.xib; sourceTree = "<group>"; };
+		22E7B91673423089D0107BCAC20BA24F /* 下载@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "下载@2x.png"; path = "BengChuang_Sport/Assets/下载@2x.png"; sourceTree = "<group>"; };
+		23493EF6FF76D6F2AD0EBFDA05C78B93 /* SportRecordHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SportRecordHeaderView.swift; sourceTree = "<group>"; };
+		248018DCD4DEBC6449024870F1E15EF3 /* JINRI-亮@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "JINRI-亮@3x.png"; path = "BengChuang_Sport/Assets/JINRI-亮@3x.png"; sourceTree = "<group>"; };
+		25A802C4546DA2D8A27E3F6453411105 /* Pods-BengChuang_Sport_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BengChuang_Sport_Example.modulemap"; sourceTree = "<group>"; };
+		265F94DF455CEDB5388476757D79D966 /* TrainCourseHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainCourseHeaderView.xib; sourceTree = "<group>"; };
+		2B8E5F9F6A7FDAC0B03FF16B48BC8C83 /* 退出@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "退出@2x.png"; path = "BengChuang_Sport/Assets/退出@2x.png"; sourceTree = "<group>"; };
+		2C2010B7926066977BD57AFC0BE646E8 /* ResourceBundle-BengChuang_Sport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BengChuang_Sport-Info.plist"; sourceTree = "<group>"; };
+		2E4A9228F1BD845805EA08FED03586B0 /* TrainContentHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainContentHeaderView.swift; sourceTree = "<group>"; };
+		302204902738341695DEA6D56C8A64D0 /* BengChuang_Sport.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BengChuang_Sport.bundle; path = "BengChuang_Sport-BengChuang_Sport.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		353B6BFCD199DAF9BC01CCD4029FF194 /* RJPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJPlayer.swift; sourceTree = "<group>"; };
+		36DD8E2233B4642E1EEBB436C694F7A4 /* TrainActionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainActionCell.xib; sourceTree = "<group>"; };
+		3DAD7BC473CA8F336E68E8566630E72A /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3EBF0504F9588D0B9F5F9F0F832CB87D /* Pods-BengChuang_Sport_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BengChuang_Sport_Tests-dummy.m"; sourceTree = "<group>"; };
+		3FAEF285F4DA69499B3509A3CE7F1272 /* TrainCourseView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainCourseView.xib; sourceTree = "<group>"; };
+		41F224FFC21D446AAB139C00AEA8D7ED /* SportReportCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SportReportCell.swift; sourceTree = "<group>"; };
+		422C70E3E4E5936F87126D8D6731A445 /* TrainCourseItem.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainCourseItem.xib; sourceTree = "<group>"; };
+		4438E68430FF2AF0079E0EE2819AF413 /* guaml@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "guaml@3x.png"; path = "BengChuang_Sport/Assets/guaml@3x.png"; sourceTree = "<group>"; };
+		457527CF8246B694826D0B10D57AE037 /* Color+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		45806FCE7458EA72CB81FFFE4C47934C /* 10ci@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "10ci@2x.png"; path = "BengChuang_Sport/Assets/10ci@2x.png"; sourceTree = "<group>"; };
+		4A2BFB071D7173DC24C9E3896D9F7EEE /* 播放@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "播放@2x.png"; path = "BengChuang_Sport/Assets/播放@2x.png"; sourceTree = "<group>"; };
+		4B78F27DCA14EDC6433DDB03C88AA80C /* BengChuang_Sport.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BengChuang_Sport.xcconfig; sourceTree = "<group>"; };
+		4B85FC24A5B109808EB797CB455EE8F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4CFF8749693691F825A0F12A85709190 /* 课程1图像@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "课程1图像@3x.png"; path = "BengChuang_Sport/Assets/课程1图像@3x.png"; sourceTree = "<group>"; };
+		4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		4F075AEFB5DE86164B8AFB6778BA1B48 /* TrainCourseHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainCourseHeaderView.swift; sourceTree = "<group>"; };
+		4F81293A924E14DBB18E693D76FB9FD8 /* 播放@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "播放@3x.png"; path = "BengChuang_Sport/Assets/播放@3x.png"; sourceTree = "<group>"; };
+		4F8E48E49E85356A48C563908576BB7C /* 后退@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "后退@3x.png"; path = "BengChuang_Sport/Assets/后退@3x.png"; sourceTree = "<group>"; };
+		4FE76677235A85DC42D4D9E9EE571D53 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		5291BE042BA30B733FB8A6EBA9BBEE7B /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		52B14CC3A0F66D783E374FE843714865 /* 日历@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "日历@3x.png"; path = "BengChuang_Sport/Assets/日历@3x.png"; sourceTree = "<group>"; };
+		539DE3964DA8F118D6F5A2E86E14DF47 /* TrainCourseCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainCourseCell.xib; sourceTree = "<group>"; };
+		53CC9865430644EC4FBE15FD955741E5 /* SportRecordHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SportRecordHeaderView.xib; sourceTree = "<group>"; };
+		551BCF985AFC2920194D4CCFDA950C74 /* 优秀@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "优秀@3x.png"; path = "BengChuang_Sport/Assets/优秀@3x.png"; sourceTree = "<group>"; };
+		55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		5F09886235355D25BD812731651908C8 /* 下载@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "下载@3x.png"; path = "BengChuang_Sport/Assets/下载@3x.png"; sourceTree = "<group>"; };
+		640318AB9BB8833DE80E5366C5823EA7 /* 课程1图像@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "课程1图像@2x.png"; path = "BengChuang_Sport/Assets/课程1图像@2x.png"; sourceTree = "<group>"; };
+		65D9BA94CADD55F1168ED5866AC04F81 /* BengChuang_Sport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BengChuang_Sport-prefix.pch"; sourceTree = "<group>"; };
+		661CC6441DE2D9B1C67344DFDA64051B /* TrainCourseItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainCourseItem.swift; sourceTree = "<group>"; };
+		679B959D1CB1148170430FC0816E6155 /* Pods-BengChuang_Sport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BengChuang_Sport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		69AAAB086653A4C74AD068405E2402F6 /* SportReportHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SportReportHeaderView.swift; sourceTree = "<group>"; };
+		6A68DEDBD54562ED0291751615BF748B /* TrainActionHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainActionHeaderView.swift; sourceTree = "<group>"; };
+		6C8CD58CEF77E2BA8D2BDAC96213A0B8 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6D078E3A87A57F7AB27BD5B1C6C8DD2D /* 10ci@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "10ci@3x.png"; path = "BengChuang_Sport/Assets/10ci@3x.png"; sourceTree = "<group>"; };
+		6FFA974D53E757407B33F9B8080140D7 /* Pods-BengChuang_Sport_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BengChuang_Sport_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7635D863CF2CAB50085252400897387A /* SportRecordVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SportRecordVC.swift; sourceTree = "<group>"; };
+		78DEC544A13FEE9B0F2E61272365A876 /* 前进@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "前进@2x.png"; path = "BengChuang_Sport/Assets/前进@2x.png"; sourceTree = "<group>"; };
+		7AD640EA19152A6FB2B8A18F98ADBFF8 /* 优秀@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "优秀@2x.png"; path = "BengChuang_Sport/Assets/优秀@2x.png"; sourceTree = "<group>"; };
+		7C24EB369895EB8904102CE49FFE9DFD /* BengChuang_Sport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BengChuang_Sport.modulemap; sourceTree = "<group>"; };
+		7C6F4D4889FC593DE4E9F88573893891 /* 下载-亮@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "下载-亮@2x.png"; path = "BengChuang_Sport/Assets/下载-亮@2x.png"; sourceTree = "<group>"; };
+		7E56E7AB746FF3029F69FD1C811B9622 /* 右箭头@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "右箭头@2x.png"; path = "BengChuang_Sport/Assets/右箭头@2x.png"; sourceTree = "<group>"; };
+		7F52BBD01B641B4E82E9C494A2D8FEF6 /* Pods_BengChuang_Sport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BengChuang_Sport_Tests.framework; path = "Pods-BengChuang_Sport_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DFBDD2CF2AB1534B1A1BCD91E53AAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CC8443AF5F6A76F6B7FC757F9A6802 /* TrainActionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainActionCell.swift; sourceTree = "<group>"; };
+		875F92E57AD5F93736026D6DB0CCA111 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		8B97988C3CDDD5B60FD7AF92801E6CE0 /* Pods-BengChuang_Sport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BengChuang_Sport_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE397E8D3C47C3139A75889466E67F9 /* RJFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJFont.swift; sourceTree = "<group>"; };
+		90EE826A597B08A2AF6D537333E09F14 /* TrainCourseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainCourseCell.swift; sourceTree = "<group>"; };
+		92E786DC6FF254C999D73FC992A0C2C7 /* TodaySportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodaySportView.swift; sourceTree = "<group>"; };
+		92F0287A15243A49489E08C4B57EA3B0 /* SportRecordCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SportRecordCell.xib; sourceTree = "<group>"; };
+		93111A0ED3CABED5D382C1D79BABB706 /* TrainContentVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainContentVC.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955115D1088E9661651C8F58BB8393A7 /* 返回-亮@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "返回-亮@3x.png"; path = "BengChuang_Sport/Assets/返回-亮@3x.png"; sourceTree = "<group>"; };
+		95EF967516F29EB4054E85A5B84A8727 /* 退出@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "退出@3x.png"; path = "BengChuang_Sport/Assets/退出@3x.png"; sourceTree = "<group>"; };
+		963DF9F773F7CEA96A8294CF0FAB5545 /* TrainingScoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingScoreView.swift; sourceTree = "<group>"; };
+		9BB539AB553EBF69F58DBF4CF9153DCA /* RJTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJTextView.swift; sourceTree = "<group>"; };
+		9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEC0A27ECCD6DE853EF1ED10AA816A0 /* guaml@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "guaml@2x.png"; path = "BengChuang_Sport/Assets/guaml@2x.png"; sourceTree = "<group>"; };
+		9E07281F2F4F7C06F38B5BC49CC1194F /* Pods-BengChuang_Sport_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BengChuang_Sport_Tests.modulemap"; sourceTree = "<group>"; };
+		9EBBF4F898F9AFB175C297147EDEA37A /* 后退@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "后退@2x.png"; path = "BengChuang_Sport/Assets/后退@2x.png"; sourceTree = "<group>"; };
+		9F3EFA5B7C5082E127BF7F5B4082EB7F /* SportReportCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SportReportCell.xib; sourceTree = "<group>"; };
+		9F41FF57D3328CA1EFD8A1CFFAEF929F /* RJLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJLayout.swift; sourceTree = "<group>"; };
+		A2632B15FCFF6626EA5A5F789CA493BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A306DC44B6AD6E4DB1B209CEC995B010 /* Pods_BengChuang_Sport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BengChuang_Sport_Example.framework; path = "Pods-BengChuang_Sport_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F73FBDA8373620BBAA9567199A13F0 /* BengChuang_Sport.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BengChuang_Sport.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A940B0341C73F151A885703819F659 /* TrainingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		A81C4FEA1FB60A694B46984B22B28565 /* Pods-BengChuang_Sport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BengChuang_Sport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8ED4D1D4AE7C32755D0F609A6F7FA67 /* SportReportHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SportReportHeaderView.xib; sourceTree = "<group>"; };
+		ACAB3C1937EC73B97755D911642CA491 /* Pods-BengChuang_Sport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BengChuang_Sport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE6C768B4DBA27CFD0C4B4C55E1CA739 /* Pods-BengChuang_Sport_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BengChuang_Sport_Example-umbrella.h"; sourceTree = "<group>"; };
+		AEB7E430E312DCA6793A4485A1F52C6E /* GCDTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
+		B0175C9F3F6CBBD9AA562B52856A7E0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50E544C8293781B2A9B46A21E058724 /* Pods-BengChuang_Sport_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BengChuang_Sport_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7FAB6CF9670AE47C3CA9027589E0BF8 /* RightBtn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RightBtn.swift; sourceTree = "<group>"; };
+		B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9FAAAFD27458A1BA9ECAC927458F89C /* TrainActionHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainActionHeaderView.xib; sourceTree = "<group>"; };
+		BED5ED2424392EA86480465AD716C400 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		C27B093D188C3EC1DC5631FA38202426 /* Pods-BengChuang_Sport_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BengChuang_Sport_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C4B4E4EF4E1CE5508AB0A591374DDEFD /* TrainCourseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainCourseView.swift; sourceTree = "<group>"; };
+		C52F4EC02B5A5D699DD66943A96CD470 /* 更多-亮@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "更多-亮@3x.png"; path = "BengChuang_Sport/Assets/更多-亮@3x.png"; sourceTree = "<group>"; };
+		C68DBA4721A2A0D2B041F2531F00D3CE /* JINRI-亮@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "JINRI-亮@2x.png"; path = "BengChuang_Sport/Assets/JINRI-亮@2x.png"; sourceTree = "<group>"; };
+		C742B6687F83491EBD07603D70601CDA /* BengChuang_Sport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BengChuang_Sport-dummy.m"; sourceTree = "<group>"; };
+		C88DAC5D54DCC7B3025C398AE7E4999D /* TrainingScoreView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainingScoreView.xib; sourceTree = "<group>"; };
+		C8AF040D5ED0F26399628EB27730F5EB /* Target_BengChuang_Sport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_BengChuang_Sport.swift; path = BengChuang_Sport/Classes/Target_BengChuang_Sport.swift; sourceTree = "<group>"; };
+		C90637C540617F60605134CF683CE3D7 /* Pods-BengChuang_Sport_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BengChuang_Sport_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CDB46EA6DBE430CD2239BD32BAACD3D5 /* BengChuang_Sport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BengChuang_Sport-umbrella.h"; sourceTree = "<group>"; };
+		D0A4C3E4118A6C0F73DA0C74A556B2E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20957BEA889ED8D55BCE5D4F6814162 /* RJButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJButton.swift; sourceTree = "<group>"; };
+		DB66238FC90FF4749DBF9984B75C3790 /* BengChuang_Sport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BengChuang_Sport.framework; path = BengChuang_Sport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE20EE4C686A33D9181AF7E53688AFEF /* Pods-BengChuang_Sport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BengChuang_Sport_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		E2BC49AB6A8EEDEBE85B159B25A4646A /* SportReportVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SportReportVC.swift; sourceTree = "<group>"; };
+		E41DF666AA7F7F94462B7811A3BCF373 /* 右箭头@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "右箭头@3x.png"; path = "BengChuang_Sport/Assets/右箭头@3x.png"; sourceTree = "<group>"; };
+		E63EEDF4BCE3E108317965FE6FACC38F /* Pods-BengChuang_Sport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BengChuang_Sport_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7B672E552FC7941B9F8A2577603DB27 /* JINRI@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "JINRI@3x.png"; path = "BengChuang_Sport/Assets/JINRI@3x.png"; sourceTree = "<group>"; };
+		E8072ECA7913BC4CA22B4E36F6712681 /* UIView+Xib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
+		E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		E946B5BA7DD4D4C01E26EF11B254C204 /* TrainVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainVC.swift; sourceTree = "<group>"; };
+		EA81A9AC5E4A462C12E430B00D2C8F26 /* NavigationVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		F199B02A4BD503F2C2D454982AA23CBE /* 地面延伸@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "地面延伸@2x.png"; path = "BengChuang_Sport/Assets/地面延伸@2x.png"; sourceTree = "<group>"; };
+		F224882EE90E3ED77D57DC23A9479693 /* RJTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJTextField.swift; sourceTree = "<group>"; };
+		F5CEF5C49E4D0031C163878449703606 /* SportRecordCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SportRecordCell.swift; sourceTree = "<group>"; };
+		F875E8B163ADAAF5E5D9E1D3D836A96E /* CourseDetailVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CourseDetailVC.swift; sourceTree = "<group>"; };
+		F8EB2BFB6A4D53E504FF1B92F0C23040 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		F9D498C32BA9A6008993B58B47050B29 /* StoryboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
+		FC4C6E1DCBDBEF78287005B39EA57F49 /* TrainCourseVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainCourseVC.swift; sourceTree = "<group>"; };
+		FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD363DCDE1EF8DAB5E29578E0F0CC558 /* TrainCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
+		FE65708C3D1BC98D2A1D8906EE03C68C /* TrainContentHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TrainContentHeaderView.xib; sourceTree = "<group>"; };
+		FE7303837C97F838506EB265348E0F7A /* Pods-BengChuang_Sport_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BengChuang_Sport_Example-dummy.m"; sourceTree = "<group>"; };
+		FEBA2CDBC4216710EF3A608FA5C38026 /* NavBarBtn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavBarBtn.swift; sourceTree = "<group>"; };
+		FF4BD04A4FC90607C606F74CE5AA7E63 /* Pods-BengChuang_Sport_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BengChuang_Sport_Tests-resources.sh"; sourceTree = "<group>"; };
+		FF6884B67B8D2DFF8FB2D62FBA78C39D /* Pods-BengChuang_Sport_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BengChuang_Sport_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA0761DA6C649D156F5EDF486940CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115045B608DC28CADD104B79371C72D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D466D89223F179F54FE7D8FD682FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA57876A54ACC73E78611365DC213C4E /* CTMediator.framework in Frameworks */,
+				54CBA95D2EA751AADA98DFED03C44F42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943B5C52FB7C9BB42728434EEE430111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A382490D3CC3AB952C9F1A6128F6DA91 /* Foundation.framework in Frameworks */,
+				A1E2BB62201011FC7E38C5BEB9C4460B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A23765DAC7CAB512BE8EC0AC3464990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F72ED1947E57EA6932B7346EE70D35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18340B969D7312526B321E5A763F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05238AFF1E43054D0709C88E06954E83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C24EB369895EB8904102CE49FFE9DFD /* BengChuang_Sport.modulemap */,
+				4B78F27DCA14EDC6433DDB03C88AA80C /* BengChuang_Sport.xcconfig */,
+				C742B6687F83491EBD07603D70601CDA /* BengChuang_Sport-dummy.m */,
+				65D9BA94CADD55F1168ED5866AC04F81 /* BengChuang_Sport-prefix.pch */,
+				CDB46EA6DBE430CD2239BD32BAACD3D5 /* BengChuang_Sport-umbrella.h */,
+				B0175C9F3F6CBBD9AA562B52856A7E0E /* Info.plist */,
+				2C2010B7926066977BD57AFC0BE646E8 /* ResourceBundle-BengChuang_Sport-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BengChuang_Sport";
+			sourceTree = "<group>";
+		};
+		068F2C691F62906DDC60E0CC7F1F900C /* GCD计时器 */ = {
+			isa = PBXGroup;
+			children = (
+				AEB7E430E312DCA6793A4485A1F52C6E /* GCDTimer.swift */,
+			);
+			name = "GCD计时器";
+			path = "GCD计时器";
+			sourceTree = "<group>";
+		};
+		0EA296D6988B35182DDB2C47EFCBF307 /* 课程详情 */ = {
+			isa = PBXGroup;
+			children = (
+				F875E8B163ADAAF5E5D9E1D3D836A96E /* CourseDetailVC.swift */,
+			);
+			name = "课程详情";
+			path = "BengChuang_Sport/Classes/课程详情";
+			sourceTree = "<group>";
+		};
+		0FC1044402600C6F4087AD55DD86ED5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				963DF9F773F7CEA96A8294CF0FAB5545 /* TrainingScoreView.swift */,
+				C88DAC5D54DCC7B3025C398AE7E4999D /* TrainingScoreView.xib */,
+				A6A940B0341C73F151A885703819F659 /* TrainingView.swift */,
+				2130BF142BB6AD14786947F94CD9A92A /* TrainingView.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23F6A59214E44BF7B92C32C407EF9D70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */,
+				B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3788E3D22479B6E0604443FBFF97FF8F /* 支持 */ = {
+			isa = PBXGroup;
+			children = (
+				4FE76677235A85DC42D4D9E9EE571D53 /* Array+Extension.swift */,
+				875F92E57AD5F93736026D6DB0CCA111 /* Bundle+Extension.swift */,
+				457527CF8246B694826D0B10D57AE037 /* Color+Extension.swift */,
+				F8EB2BFB6A4D53E504FF1B92F0C23040 /* Date+Extension.swift */,
+				8BE397E8D3C47C3139A75889466E67F9 /* RJFont.swift */,
+				9F41FF57D3328CA1EFD8A1CFFAEF929F /* RJLayout.swift */,
+				F9D498C32BA9A6008993B58B47050B29 /* StoryboardManager.swift */,
+				08ED0166FD8E4AE9A5ED3A4B05F9DDAB /* String+Extension.swift */,
+				3DAD7BC473CA8F336E68E8566630E72A /* UIView+Extension.swift */,
+				E8072ECA7913BC4CA22B4E36F6712681 /* UIView+Xib.swift */,
+			);
+			name = "支持";
+			path = "BengChuang_Sport/Classes/支持";
+			sourceTree = "<group>";
+		};
+		37A5BBEEFE10D6C87D94838A06BF86BA /* BengChuang_Sport */ = {
+			isa = PBXGroup;
+			children = (
+				C8AF040D5ED0F26399628EB27730F5EB /* Target_BengChuang_Sport.swift */,
+				91DB548AA1F1A9A78A455079D83A6505 /* Pod */,
+				EDBA6483FB07C2DA930E3101B0D67142 /* Resources */,
+				05238AFF1E43054D0709C88E06954E83 /* Support Files */,
+				EE1AED3F2571558FFF8F10B1C2183E95 /* 工具 */,
+				BDC40E4A260BD2E58F5B74CB74F93F05 /* 开始训练 */,
+				3788E3D22479B6E0604443FBFF97FF8F /* 支持 */,
+				C7CF4F7B0FEDDA11B1A5D69199BBC408 /* 父类 */,
+				6A7589442463A9ECFD8E435D60A59AD3 /* 训练 */,
+				C1F1E828E3D4FFD2C4E3E3C6F8E6A384 /* 训练内容 */,
+				74AD75460A06F6BDC922944031661793 /* 训练课程 */,
+				0EA296D6988B35182DDB2C47EFCBF307 /* 课程详情 */,
+				6ED8E7C36415BED67BFE779B14143C23 /* 运动报告 */,
+				3D027414822F4042B2DF6C02FEECF503 /* 运动记录 */,
+			);
+			name = BengChuang_Sport;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B4E66A8B81F8173AA5B87A617472996 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7635D863CF2CAB50085252400897387A /* SportRecordVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		3D027414822F4042B2DF6C02FEECF503 /* 运动记录 */ = {
+			isa = PBXGroup;
+			children = (
+				3B4E66A8B81F8173AA5B87A617472996 /* VC */,
+				6715049FB7B81536B5FF7E423A5B8799 /* View */,
+			);
+			name = "运动记录";
+			path = "BengChuang_Sport/Classes/运动记录";
+			sourceTree = "<group>";
+		};
+		56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */,
+				BED5ED2424392EA86480465AD716C400 /* CTMediator.m */,
+				D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		647153F500C9D7BC72B76B95DF98BBF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92E786DC6FF254C999D73FC992A0C2C7 /* TodaySportView.swift */,
+				1B6D8FAF6CA88FBE1E3255EF054CA6A2 /* TodaySportView.xib */,
+				FD363DCDE1EF8DAB5E29578E0F0CC558 /* TrainCell.swift */,
+				13ABB2EE304E75AF6EAF27D29B80C619 /* TrainCell.xib */,
+				C4B4E4EF4E1CE5508AB0A591374DDEFD /* TrainCourseView.swift */,
+				3FAEF285F4DA69499B3509A3CE7F1272 /* TrainCourseView.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		6715049FB7B81536B5FF7E423A5B8799 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5CEF5C49E4D0031C163878449703606 /* SportRecordCell.swift */,
+				92F0287A15243A49489E08C4B57EA3B0 /* SportRecordCell.xib */,
+				23493EF6FF76D6F2AD0EBFDA05C78B93 /* SportRecordHeaderView.swift */,
+				53CC9865430644EC4FBE15FD955741E5 /* SportRecordHeaderView.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A7589442463A9ECFD8E435D60A59AD3 /* 训练 */ = {
+			isa = PBXGroup;
+			children = (
+				9F9DC0848775167B8BBA5FFDA9B8C4CB /* VC */,
+				647153F500C9D7BC72B76B95DF98BBF1 /* View */,
+			);
+			name = "训练";
+			path = "BengChuang_Sport/Classes/训练";
+			sourceTree = "<group>";
+		};
+		6B5A559938F3860BD79CBE812CC0A7FE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				93111A0ED3CABED5D382C1D79BABB706 /* TrainContentVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6CC79822511BDB49CFFBED99FE6B8ED8 /* Pods-BengChuang_Sport_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0A4C3E4118A6C0F73DA0C74A556B2E6 /* Info.plist */,
+				25A802C4546DA2D8A27E3F6453411105 /* Pods-BengChuang_Sport_Example.modulemap */,
+				A81C4FEA1FB60A694B46984B22B28565 /* Pods-BengChuang_Sport_Example-acknowledgements.markdown */,
+				ACAB3C1937EC73B97755D911642CA491 /* Pods-BengChuang_Sport_Example-acknowledgements.plist */,
+				FE7303837C97F838506EB265348E0F7A /* Pods-BengChuang_Sport_Example-dummy.m */,
+				039A3CC9377B1EF81AE403482E12440E /* Pods-BengChuang_Sport_Example-frameworks.sh */,
+				FF6884B67B8D2DFF8FB2D62FBA78C39D /* Pods-BengChuang_Sport_Example-resources.sh */,
+				AE6C768B4DBA27CFD0C4B4C55E1CA739 /* Pods-BengChuang_Sport_Example-umbrella.h */,
+				8B97988C3CDDD5B60FD7AF92801E6CE0 /* Pods-BengChuang_Sport_Example.debug.xcconfig */,
+				DE20EE4C686A33D9181AF7E53688AFEF /* Pods-BengChuang_Sport_Example.release.xcconfig */,
+			);
+			name = "Pods-BengChuang_Sport_Example";
+			path = "Target Support Files/Pods-BengChuang_Sport_Example";
+			sourceTree = "<group>";
+		};
+		6ED8E7C36415BED67BFE779B14143C23 /* 运动报告 */ = {
+			isa = PBXGroup;
+			children = (
+				936C07A4F575B045592FB55BEF3FDBF9 /* VC */,
+				A51D9D45A46A750DE1CC5DA32A58B76A /* View */,
+			);
+			name = "运动报告";
+			path = "BengChuang_Sport/Classes/运动报告";
+			sourceTree = "<group>";
+		};
+		74AD75460A06F6BDC922944031661793 /* 训练课程 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8C2F478B03528B36CF14F876EE46A1 /* VC */,
+				D88016420B57E23C53B48ECB60277E1E /* View */,
+			);
+			name = "训练课程";
+			path = "BengChuang_Sport/Classes/训练课程";
+			sourceTree = "<group>";
+		};
+		7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */,
+				23F6A59214E44BF7B92C32C407EF9D70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C22EE101200C512CEDA53594EED3AA12 /* Development Pods */,
+				7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */,
+				16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */,
+				922E68D04DFD2FEEF70DB0144D9AB3DF /* Products */,
+				9DE5113D74E518F4BC62EA5546A597CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2600EEE3F10FE8B3DDB2B8B6579304 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				054E56271149B92E8FEA651BAC2AE281 /* TrainingVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		91DB548AA1F1A9A78A455079D83A6505 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A5F73FBDA8373620BBAA9567199A13F0 /* BengChuang_Sport.podspec */,
+				A2632B15FCFF6626EA5A5F789CA493BC /* LICENSE */,
+				4B85FC24A5B109808EB797CB455EE8F9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		922E68D04DFD2FEEF70DB0144D9AB3DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302204902738341695DEA6D56C8A64D0 /* BengChuang_Sport.bundle */,
+				DB66238FC90FF4749DBF9984B75C3790 /* BengChuang_Sport.framework */,
+				1D8F75597DA200ED2FA9EA5226B3A2AA /* CTMediator.framework */,
+				A306DC44B6AD6E4DB1B209CEC995B010 /* Pods_BengChuang_Sport_Example.framework */,
+				7F52BBD01B641B4E82E9C494A2D8FEF6 /* Pods_BengChuang_Sport_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		936C07A4F575B045592FB55BEF3FDBF9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC49AB6A8EEDEBE85B159B25A4646A /* SportReportVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9DE5113D74E518F4BC62EA5546A597CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC79822511BDB49CFFBED99FE6B8ED8 /* Pods-BengChuang_Sport_Example */,
+				C821DAFCE7EFCB6176F01FCFAA0C3A3F /* Pods-BengChuang_Sport_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F8C2F478B03528B36CF14F876EE46A1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C6E1DCBDBEF78287005B39EA57F49 /* TrainCourseVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9F9DC0848775167B8BBA5FFDA9B8C4CB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E946B5BA7DD4D4C01E26EF11B254C204 /* TrainVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A51D9D45A46A750DE1CC5DA32A58B76A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41F224FFC21D446AAB139C00AEA8D7ED /* SportReportCell.swift */,
+				9F3EFA5B7C5082E127BF7F5B4082EB7F /* SportReportCell.xib */,
+				69AAAB086653A4C74AD068405E2402F6 /* SportReportHeaderView.swift */,
+				A8ED4D1D4AE7C32755D0F609A6F7FA67 /* SportReportHeaderView.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDC40E4A260BD2E58F5B74CB74F93F05 /* 开始训练 */ = {
+			isa = PBXGroup;
+			children = (
+				8C2600EEE3F10FE8B3DDB2B8B6579304 /* VC */,
+				0FC1044402600C6F4087AD55DD86ED5F /* View */,
+			);
+			name = "开始训练";
+			path = "BengChuang_Sport/Classes/开始训练";
+			sourceTree = "<group>";
+		};
+		C1F1E828E3D4FFD2C4E3E3C6F8E6A384 /* 训练内容 */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A559938F3860BD79CBE812CC0A7FE /* VC */,
+				FBC1F79B7B90EB71A17FFF747D28821A /* View */,
+			);
+			name = "训练内容";
+			path = "BengChuang_Sport/Classes/训练内容";
+			sourceTree = "<group>";
+		};
+		C22EE101200C512CEDA53594EED3AA12 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A5BBEEFE10D6C87D94838A06BF86BA /* BengChuang_Sport */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7CF4F7B0FEDDA11B1A5D69199BBC408 /* 父类 */ = {
+			isa = PBXGroup;
+			children = (
+				6C8CD58CEF77E2BA8D2BDAC96213A0B8 /* BaseViewController.swift */,
+				FEBA2CDBC4216710EF3A608FA5C38026 /* NavBarBtn.swift */,
+				EA81A9AC5E4A462C12E430B00D2C8F26 /* NavigationVC.swift */,
+				B7FAB6CF9670AE47C3CA9027589E0BF8 /* RightBtn.swift */,
+				D20957BEA889ED8D55BCE5D4F6814162 /* RJButton.swift */,
+				F224882EE90E3ED77D57DC23A9479693 /* RJTextField.swift */,
+				9BB539AB553EBF69F58DBF4CF9153DCA /* RJTextView.swift */,
+			);
+			name = "父类";
+			path = "BengChuang_Sport/Classes/父类";
+			sourceTree = "<group>";
+		};
+		C821DAFCE7EFCB6176F01FCFAA0C3A3F /* Pods-BengChuang_Sport_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80DFBDD2CF2AB1534B1A1BCD91E53AAC /* Info.plist */,
+				9E07281F2F4F7C06F38B5BC49CC1194F /* Pods-BengChuang_Sport_Tests.modulemap */,
+				B50E544C8293781B2A9B46A21E058724 /* Pods-BengChuang_Sport_Tests-acknowledgements.markdown */,
+				6FFA974D53E757407B33F9B8080140D7 /* Pods-BengChuang_Sport_Tests-acknowledgements.plist */,
+				3EBF0504F9588D0B9F5F9F0F832CB87D /* Pods-BengChuang_Sport_Tests-dummy.m */,
+				C27B093D188C3EC1DC5631FA38202426 /* Pods-BengChuang_Sport_Tests-frameworks.sh */,
+				FF4BD04A4FC90607C606F74CE5AA7E63 /* Pods-BengChuang_Sport_Tests-resources.sh */,
+				C90637C540617F60605134CF683CE3D7 /* Pods-BengChuang_Sport_Tests-umbrella.h */,
+				679B959D1CB1148170430FC0816E6155 /* Pods-BengChuang_Sport_Tests.debug.xcconfig */,
+				E63EEDF4BCE3E108317965FE6FACC38F /* Pods-BengChuang_Sport_Tests.release.xcconfig */,
+			);
+			name = "Pods-BengChuang_Sport_Tests";
+			path = "Target Support Files/Pods-BengChuang_Sport_Tests";
+			sourceTree = "<group>";
+		};
+		D601588F554743B1563760232055F651 /* 播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				353B6BFCD199DAF9BC01CCD4029FF194 /* RJPlayer.swift */,
+			);
+			name = "播放器";
+			path = "播放器";
+			sourceTree = "<group>";
+		};
+		D88016420B57E23C53B48ECB60277E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90EE826A597B08A2AF6D537333E09F14 /* TrainCourseCell.swift */,
+				539DE3964DA8F118D6F5A2E86E14DF47 /* TrainCourseCell.xib */,
+				4F075AEFB5DE86164B8AFB6778BA1B48 /* TrainCourseHeaderView.swift */,
+				265F94DF455CEDB5388476757D79D966 /* TrainCourseHeaderView.xib */,
+				661CC6441DE2D9B1C67344DFDA64051B /* TrainCourseItem.swift */,
+				422C70E3E4E5936F87126D8D6731A445 /* TrainCourseItem.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */,
+				31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */,
+				E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */,
+				5291BE042BA30B733FB8A6EBA9BBEE7B /* CTMediator-prefix.pch */,
+				E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */,
+				9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		EDBA6483FB07C2DA930E3101B0D67142 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45806FCE7458EA72CB81FFFE4C47934C /* 10ci@2x.png */,
+				6D078E3A87A57F7AB27BD5B1C6C8DD2D /* 10ci@3x.png */,
+				9DEC0A27ECCD6DE853EF1ED10AA816A0 /* guaml@2x.png */,
+				4438E68430FF2AF0079E0EE2819AF413 /* guaml@3x.png */,
+				C68DBA4721A2A0D2B041F2531F00D3CE /* JINRI-亮@2x.png */,
+				248018DCD4DEBC6449024870F1E15EF3 /* JINRI-亮@3x.png */,
+				08A9E170CE1CE506EEC3756A4034A18D /* JINRI@2x.png */,
+				E7B672E552FC7941B9F8A2577603DB27 /* JINRI@3x.png */,
+				7C6F4D4889FC593DE4E9F88573893891 /* 下载-亮@2x.png */,
+				02EA4A1FA831B9F2CD6A55014E3C119E /* 下载-亮@3x.png */,
+				22E7B91673423089D0107BCAC20BA24F /* 下载@2x.png */,
+				5F09886235355D25BD812731651908C8 /* 下载@3x.png */,
+				7AD640EA19152A6FB2B8A18F98ADBFF8 /* 优秀@2x.png */,
+				551BCF985AFC2920194D4CCFDA950C74 /* 优秀@3x.png */,
+				78DEC544A13FEE9B0F2E61272365A876 /* 前进@2x.png */,
+				1E1ADC760B01F0DD8838E8F81BA551CD /* 前进@3x.png */,
+				7E56E7AB746FF3029F69FD1C811B9622 /* 右箭头@2x.png */,
+				E41DF666AA7F7F94462B7811A3BCF373 /* 右箭头@3x.png */,
+				9EBBF4F898F9AFB175C297147EDEA37A /* 后退@2x.png */,
+				4F8E48E49E85356A48C563908576BB7C /* 后退@3x.png */,
+				F199B02A4BD503F2C2D454982AA23CBE /* 地面延伸@2x.png */,
+				169611D70E1835C343EC701636A1242F /* 地面延伸@3x.png */,
+				4A2BFB071D7173DC24C9E3896D9F7EEE /* 播放@2x.png */,
+				4F81293A924E14DBB18E693D76FB9FD8 /* 播放@3x.png */,
+				04A72B1B4F17A79355CF65E7FDDCD16E /* 日历@2x.png */,
+				52B14CC3A0F66D783E374FE843714865 /* 日历@3x.png */,
+				1BDA0BBAFF33B0B496B7F93D194279C1 /* 更多-亮@2x.png */,
+				C52F4EC02B5A5D699DD66943A96CD470 /* 更多-亮@3x.png */,
+				640318AB9BB8833DE80E5366C5823EA7 /* 课程1图像@2x.png */,
+				4CFF8749693691F825A0F12A85709190 /* 课程1图像@3x.png */,
+				0AF60B818DD7137D76A348F4667155D6 /* 返回-亮@2x.png */,
+				955115D1088E9661651C8F58BB8393A7 /* 返回-亮@3x.png */,
+				2B8E5F9F6A7FDAC0B03FF16B48BC8C83 /* 退出@2x.png */,
+				95EF967516F29EB4054E85A5B84A8727 /* 退出@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EE1AED3F2571558FFF8F10B1C2183E95 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				068F2C691F62906DDC60E0CC7F1F900C /* GCD计时器 */,
+				D601588F554743B1563760232055F651 /* 播放器 */,
+			);
+			name = "工具";
+			path = "BengChuang_Sport/Classes/工具";
+			sourceTree = "<group>";
+		};
+		FBC1F79B7B90EB71A17FFF747D28821A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83CC8443AF5F6A76F6B7FC757F9A6802 /* TrainActionCell.swift */,
+				36DD8E2233B4642E1EEBB436C694F7A4 /* TrainActionCell.xib */,
+				6A68DEDBD54562ED0291751615BF748B /* TrainActionHeaderView.swift */,
+				B9FAAAFD27458A1BA9ECAC927458F89C /* TrainActionHeaderView.xib */,
+				2E4A9228F1BD845805EA08FED03586B0 /* TrainContentHeaderView.swift */,
+				FE65708C3D1BC98D2A1D8906EE03C68C /* TrainContentHeaderView.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B56EEC39A817E473AEA4CAD45F1D47D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902F8017AFB8F38842FE56C9D41CE9E8 /* Pods-BengChuang_Sport_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5598E512DDF71420D3730FE15D561 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D70FCEAFA34441DF4DC5C88B9F45CBC /* CTMediator-umbrella.h in Headers */,
+				26D08D9797E40D3182C16A6C5E8B78D0 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9A4503121159DBC6AC681D39D92483 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F245A84188FFFE200AFB97856BC3E7 /* BengChuang_Sport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBB50A35F168CD3961E6CDEAB1684F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB89E1CD6D9B25CC0D55FD1E0CD7259 /* Pods-BengChuang_Sport_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F4EFC4CC9CAD642B3FFA46623FEEB06 /* Pods-BengChuang_Sport_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11EACC981D39BC45A510F80781790AC /* Build configuration list for PBXNativeTarget "Pods-BengChuang_Sport_Tests" */;
+			buildPhases = (
+				604B386F9AE6E366CAAA7C505AD2AC1F /* Sources */,
+				0CA0761DA6C649D156F5EDF486940CD0 /* Frameworks */,
+				AEDBB50A35F168CD3961E6CDEAB1684F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BengChuang_Sport_Tests";
+			productName = "Pods-BengChuang_Sport_Tests";
+			productReference = 7F52BBD01B641B4E82E9C494A2D8FEF6 /* Pods_BengChuang_Sport_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C5738F48C4059962CB0A4D242DF709B /* Pods-BengChuang_Sport_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D4D055AE4A1438A2583C45522B9361 /* Build configuration list for PBXNativeTarget "Pods-BengChuang_Sport_Example" */;
+			buildPhases = (
+				67FED7742FF248503C99FEF015A9C9E4 /* Sources */,
+				9A23765DAC7CAB512BE8EC0AC3464990 /* Frameworks */,
+				0B56EEC39A817E473AEA4CAD45F1D47D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594B40AA009DA8A142DA6D6A652F798A /* PBXTargetDependency */,
+				3A3AFDB742E2C10A19AB531F8A90C0BF /* PBXTargetDependency */,
+			);
+			name = "Pods-BengChuang_Sport_Example";
+			productName = "Pods-BengChuang_Sport_Example";
+			productReference = A306DC44B6AD6E4DB1B209CEC995B010 /* Pods_BengChuang_Sport_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8497106950FE08A7640BB29F8F0DC8E3 /* BengChuang_Sport-BengChuang_Sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A3AF272EC3CEA80ABE5A781C3D5DF3 /* Build configuration list for PBXNativeTarget "BengChuang_Sport-BengChuang_Sport" */;
+			buildPhases = (
+				52454711FD01D7B980D23F1C3A218EAE /* Sources */,
+				FC18340B969D7312526B321E5A763F6E /* Frameworks */,
+				6AD475FC34B7C265D6CF66A2884EE46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BengChuang_Sport-BengChuang_Sport";
+			productName = "BengChuang_Sport-BengChuang_Sport";
+			productReference = 302204902738341695DEA6D56C8A64D0 /* BengChuang_Sport.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8AB577610DDBB837169AB456B28F9FE0 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446FF27387EB7CCAB386ADC66E310833 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				0BF8A40E259CD86AFAF309A2A1A650DA /* Sources */,
+				943B5C52FB7C9BB42728434EEE430111 /* Frameworks */,
+				8CB5598E512DDF71420D3730FE15D561 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 1D8F75597DA200ED2FA9EA5226B3A2AA /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AC615350F7E856FF30A1FEB5EC8F632 /* BengChuang_Sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ADA15B9E6D9C3BF1FFA8B5799E5EE7 /* Build configuration list for PBXNativeTarget "BengChuang_Sport" */;
+			buildPhases = (
+				9DCA35D9C8E60BA1A8530B8429636388 /* Sources */,
+				40D466D89223F179F54FE7D8FD682FDA /* Frameworks */,
+				C8B1D051069BC976357145BE07394DBE /* Resources */,
+				AB9A4503121159DBC6AC681D39D92483 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44FE0718C12BC2963E1872F3D40FC1B4 /* PBXTargetDependency */,
+				BD74714877419EEEC1C3A73A93E1783C /* PBXTargetDependency */,
+			);
+			name = BengChuang_Sport;
+			productName = BengChuang_Sport;
+			productReference = DB66238FC90FF4749DBF9984B75C3790 /* BengChuang_Sport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 922E68D04DFD2FEEF70DB0144D9AB3DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC615350F7E856FF30A1FEB5EC8F632 /* BengChuang_Sport */,
+				8497106950FE08A7640BB29F8F0DC8E3 /* BengChuang_Sport-BengChuang_Sport */,
+				8AB577610DDBB837169AB456B28F9FE0 /* CTMediator */,
+				2C5738F48C4059962CB0A4D242DF709B /* Pods-BengChuang_Sport_Example */,
+				1F4EFC4CC9CAD642B3FFA46623FEEB06 /* Pods-BengChuang_Sport_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD475FC34B7C265D6CF66A2884EE46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E28F0A22A6EC55064052EC6534F4AC4 /* 10ci@2x.png in Resources */,
+				B6B29945110CE4DE73B47F78A8BA8249 /* 10ci@3x.png in Resources */,
+				CC8EFFE2BA2219EFC3773B31DA1EC81E /* guaml@2x.png in Resources */,
+				8F8D57559ADB8B4779089A1438A53841 /* guaml@3x.png in Resources */,
+				926850882F9C69B8D4669CEFD37DA0D2 /* JINRI-亮@2x.png in Resources */,
+				8D9ACA359B73FE81C12937716A82E4CB /* JINRI-亮@3x.png in Resources */,
+				B7412CFB23E2C65BBF8055C262C1EC1A /* JINRI@2x.png in Resources */,
+				869BBF755232366ED22436D2CC28BC23 /* JINRI@3x.png in Resources */,
+				8C324266A997ACFB98A6E78212D81916 /* 下载-亮@2x.png in Resources */,
+				65724295587EFC11607CAB6883C7D46D /* 下载-亮@3x.png in Resources */,
+				D5B7F6926AF1A1C13D104C0C49916C4B /* 下载@2x.png in Resources */,
+				4CD4D448642C956EAADFB35909EB2247 /* 下载@3x.png in Resources */,
+				847851F2C94D5CE1A509A876474D268C /* 优秀@2x.png in Resources */,
+				8E6AEC7BE1B91E2FF75172F9CC565E1B /* 优秀@3x.png in Resources */,
+				1C0FC38CCBCCFA2E59ECFE14C26FD1B5 /* 前进@2x.png in Resources */,
+				264646F25F28B21FBF6E11B92E5F952E /* 前进@3x.png in Resources */,
+				FCA5AA85A28A5AEB86250E0501CD6549 /* 右箭头@2x.png in Resources */,
+				33129576D3E4B46B70D0AB979D47E467 /* 右箭头@3x.png in Resources */,
+				A9B839915F803A73E3958EE7F8D20F61 /* 后退@2x.png in Resources */,
+				010A422A41AE28EC438C72F5789F4E26 /* 后退@3x.png in Resources */,
+				C0AAFBC9F02DF5B252862D18D311FF2E /* 地面延伸@2x.png in Resources */,
+				E2683ADE0F638E19CBE56E32935BE0C0 /* 地面延伸@3x.png in Resources */,
+				9AA80186017DD5D9D1CC2A58F36F5293 /* 播放@2x.png in Resources */,
+				688C5735E8F7FDE9CA541FFAEAE7834F /* 播放@3x.png in Resources */,
+				1244F23803DA6E9B2C47EDC3D9CB5EC9 /* 日历@2x.png in Resources */,
+				2D306A0895277BA0880F09E251016A96 /* 日历@3x.png in Resources */,
+				9C4D6F5758FBD740058D481B8C65BDD3 /* 更多-亮@2x.png in Resources */,
+				98548DC2CE64A228D045447D9273439F /* 更多-亮@3x.png in Resources */,
+				227FF5941F2F30565416195B2B48D6EB /* 课程1图像@2x.png in Resources */,
+				F90D6600BDF1C2B14FAD6A1B2AE2A9F1 /* 课程1图像@3x.png in Resources */,
+				29CEBE920BC7C494AA98C3728D2D8D28 /* 返回-亮@2x.png in Resources */,
+				99C2DD7C3B515F9615E136FA90D64655 /* 返回-亮@3x.png in Resources */,
+				2DF1557E027D8D2AFEABC227B6CCA1A9 /* 退出@2x.png in Resources */,
+				3CE26EC91B342CDF01E37EE07434838B /* 退出@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B1D051069BC976357145BE07394DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E935A062313B35AB3C238AC7D6D36680 /* BengChuang_Sport.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF8A40E259CD86AFAF309A2A1A650DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EF2ED1C32DD7CDDD9B10573EFB6E5E /* CTMediator-dummy.m in Sources */,
+				53CAE05E5C6B4709E4143CBE61BD94E8 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52454711FD01D7B980D23F1C3A218EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604B386F9AE6E366CAAA7C505AD2AC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7DB54310C0F721C03BA2794E2D8272 /* Pods-BengChuang_Sport_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FED7742FF248503C99FEF015A9C9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA6B1381CF45086F03098B3DD3A82F /* Pods-BengChuang_Sport_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCA35D9C8E60BA1A8530B8429636388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2061BFC0F80202BD3DBB96A5B3A2BEF3 /* Array+Extension.swift in Sources */,
+				FE2A03BDD97AD32EE4197466CD5DAA46 /* BaseViewController.swift in Sources */,
+				C2DE37537C15821712F31B584A734FB5 /* BengChuang_Sport-dummy.m in Sources */,
+				44A43EEB004FC5B8D21CAE8B149B89CF /* Bundle+Extension.swift in Sources */,
+				608EC398C6DAC61443E4C3D117653CCE /* Color+Extension.swift in Sources */,
+				BE1E760876A7AD823CA99A5C9D4F0347 /* CourseDetailVC.swift in Sources */,
+				143B17974359F807146B3021DE0900FA /* Date+Extension.swift in Sources */,
+				DCA8A2E33774A335D371D8812D404088 /* GCDTimer.swift in Sources */,
+				61274D421544F4F920E07CFD9B244D4E /* NavBarBtn.swift in Sources */,
+				6F014FFDD412E80B1680C1E9A48D70D4 /* NavigationVC.swift in Sources */,
+				88A6A9374DEFE93663AC7772A377B749 /* RightBtn.swift in Sources */,
+				B674D6D25DCC3FE2358470EABDF03E0B /* RJButton.swift in Sources */,
+				C3A8B30E5059F80DFA1747211B9835B3 /* RJFont.swift in Sources */,
+				16F1CE026BBBA3397026CD0A6A2C7CE6 /* RJLayout.swift in Sources */,
+				8A666D4AB957FEC3A61202591ACCE640 /* RJPlayer.swift in Sources */,
+				7F4670AEEEEB410494A609F1C463CF3F /* RJTextField.swift in Sources */,
+				19C68F0D83F2CF4E2DCD72E974484871 /* RJTextView.swift in Sources */,
+				C8C9E34A97459FA0B4D479A39445AFFF /* SportRecordCell.swift in Sources */,
+				5D97DC311E9235DFCBFF3810856A3D4D /* SportRecordCell.xib in Sources */,
+				428E2582750D4AF370D1C35038D588FA /* SportRecordHeaderView.swift in Sources */,
+				2E8B6C5AA78C976B5D4050125C822BE8 /* SportRecordHeaderView.xib in Sources */,
+				6CCAF0203ECC8BA31C444842ADF7AAA6 /* SportRecordVC.swift in Sources */,
+				2135DB3391845DCA1362D293F24AB391 /* SportReportCell.swift in Sources */,
+				537D7E2CD4A2E1BB98D04CF1B36C600C /* SportReportCell.xib in Sources */,
+				D181991DC3D9A0241A1A901DECAE1FD6 /* SportReportHeaderView.swift in Sources */,
+				83A939106E3AD232B9C4BEFE6A89F0A0 /* SportReportHeaderView.xib in Sources */,
+				E80C88566D46D890DF57147C838708C5 /* SportReportVC.swift in Sources */,
+				E50C533867880CE7B7EB40A668995C9B /* StoryboardManager.swift in Sources */,
+				D0CA0B811C1EBAA07CA7AB74B2A83BDC /* String+Extension.swift in Sources */,
+				4595160120545882C0D796C3D2CF7404 /* Target_BengChuang_Sport.swift in Sources */,
+				9C857750E280961D3B2D6A676FE91968 /* TodaySportView.swift in Sources */,
+				02B628E560D324875AEB1FA706DEE3B3 /* TodaySportView.xib in Sources */,
+				91010178D1ADD278EF69D61251BA3DBC /* TrainActionCell.swift in Sources */,
+				E7605C6B2CF39623A541B39F5B553987 /* TrainActionCell.xib in Sources */,
+				22B70C3B90FE36CF3E416B2AE0CB09B1 /* TrainActionHeaderView.swift in Sources */,
+				890512C47DBB7215ED8112174CC458F1 /* TrainActionHeaderView.xib in Sources */,
+				EED6CEF232A4A59F7DDF98D04D144F19 /* TrainCell.swift in Sources */,
+				F9F4860814EBBCE48585599B1D5BF3CF /* TrainCell.xib in Sources */,
+				E8F0362559E8A37534DD6F9B9256FCEA /* TrainContentHeaderView.swift in Sources */,
+				8F59D3314EBA81FACC8732E8E4BD6C93 /* TrainContentHeaderView.xib in Sources */,
+				ADDF16BD00D9013D2C3169CD6D38D35C /* TrainContentVC.swift in Sources */,
+				A466FDAE9A8E67C3515A17F59D1C295B /* TrainCourseCell.swift in Sources */,
+				EFE03E869F3314C41BA068D7FF77BBA4 /* TrainCourseCell.xib in Sources */,
+				44755F218646A3E55B4DA551AD449442 /* TrainCourseHeaderView.swift in Sources */,
+				9E0C16965998B8B47F0FE881F9DD9777 /* TrainCourseHeaderView.xib in Sources */,
+				10A2AF9A9AA64B3C45D3B23F3DC7BA78 /* TrainCourseItem.swift in Sources */,
+				996149891FA3E4131D844837B09E1A1F /* TrainCourseItem.xib in Sources */,
+				6E57021BA93D1EE27FE816FD1A938494 /* TrainCourseVC.swift in Sources */,
+				168F7F216CC61B2E437A51B6ECA5CEB2 /* TrainCourseView.swift in Sources */,
+				537B376C1F4EE443C9DC8FC4266D7AE7 /* TrainCourseView.xib in Sources */,
+				84D3E34BB04A4DCC1718B08C9ED4C719 /* TrainingScoreView.swift in Sources */,
+				57F6FE64EA88737A3211B35A2E777D3D /* TrainingScoreView.xib in Sources */,
+				AD960E903A91600AEF24E9B628689178 /* TrainingVC.swift in Sources */,
+				664D6E691D76FF8F3339FB8502F28A9C /* TrainingView.swift in Sources */,
+				F11DB30D78E23ECDE004770AA95D2F9C /* TrainingView.xib in Sources */,
+				6D3652B3793521B3A16C13F06EE71861 /* TrainVC.swift in Sources */,
+				FBA55133034226BCD230DDECC959C306 /* UIView+Extension.swift in Sources */,
+				F9131D303739361F47B823A41F393C28 /* UIView+Xib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3AFDB742E2C10A19AB531F8A90C0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 8AB577610DDBB837169AB456B28F9FE0 /* CTMediator */;
+			targetProxy = 2BA0CC4A4A5B508FAAB6336C99EBCA80 /* PBXContainerItemProxy */;
+		};
+		44FE0718C12BC2963E1872F3D40FC1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BengChuang_Sport-BengChuang_Sport";
+			target = 8497106950FE08A7640BB29F8F0DC8E3 /* BengChuang_Sport-BengChuang_Sport */;
+			targetProxy = 5512BC1412B02CEE3FA10279C3AF12AA /* PBXContainerItemProxy */;
+		};
+		594B40AA009DA8A142DA6D6A652F798A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BengChuang_Sport;
+			target = 9AC615350F7E856FF30A1FEB5EC8F632 /* BengChuang_Sport */;
+			targetProxy = 1B3A55C79661C5913AD68DC4D2BE34D5 /* PBXContainerItemProxy */;
+		};
+		BD74714877419EEEC1C3A73A93E1783C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 8AB577610DDBB837169AB456B28F9FE0 /* CTMediator */;
+			targetProxy = DBA679347B846FE1F99CD9D62A96E4DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A3573021C82E4087DF6FE40FB3D3015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B78F27DCA14EDC6433DDB03C88AA80C /* BengChuang_Sport.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BengChuang_Sport";
+				INFOPLIST_FILE = "Target Support Files/BengChuang_Sport/ResourceBundle-BengChuang_Sport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BengChuang_Sport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DD705FF5C9FEF79D9F4B5816A14B7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B78F27DCA14EDC6433DDB03C88AA80C /* BengChuang_Sport.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BengChuang_Sport/BengChuang_Sport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BengChuang_Sport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BengChuang_Sport/BengChuang_Sport.modulemap";
+				PRODUCT_NAME = BengChuang_Sport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6118F68D299672E21A9B268BA1737EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63EEDF4BCE3E108317965FE6FACC38F /* Pods-BengChuang_Sport_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BengChuang_Sport_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BengChuang_Sport_Tests/Pods-BengChuang_Sport_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BengChuang_Sport_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BDDFD2B0E5DABFC8EFAE9AEEFEE19BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B78F27DCA14EDC6433DDB03C88AA80C /* BengChuang_Sport.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BengChuang_Sport";
+				INFOPLIST_FILE = "Target Support Files/BengChuang_Sport/ResourceBundle-BengChuang_Sport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BengChuang_Sport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7E0DB1522B37580162D6DE73B4559FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE20EE4C686A33D9181AF7E53688AFEF /* Pods-BengChuang_Sport_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BengChuang_Sport_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BengChuang_Sport_Example/Pods-BengChuang_Sport_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BengChuang_Sport_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		86068055CA7896D68CA8A6BB3447ABA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93F89B100A3C6D4AF70FB78D73A92D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679B959D1CB1148170430FC0816E6155 /* Pods-BengChuang_Sport_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BengChuang_Sport_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BengChuang_Sport_Tests/Pods-BengChuang_Sport_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BengChuang_Sport_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A97BBCFD5397565A63458B4C27F8CA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B78F27DCA14EDC6433DDB03C88AA80C /* BengChuang_Sport.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BengChuang_Sport/BengChuang_Sport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BengChuang_Sport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BengChuang_Sport/BengChuang_Sport.modulemap";
+				PRODUCT_NAME = BengChuang_Sport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBFDB8F6086375107C4AC943B36DDBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E94C76AABAB6F82FC3AE42E8B68B5BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B97988C3CDDD5B60FD7AF92801E6CE0 /* Pods-BengChuang_Sport_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BengChuang_Sport_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BengChuang_Sport_Example/Pods-BengChuang_Sport_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BengChuang_Sport_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D4D055AE4A1438A2583C45522B9361 /* Build configuration list for PBXNativeTarget "Pods-BengChuang_Sport_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94C76AABAB6F82FC3AE42E8B68B5BD3 /* Debug */,
+				7E0DB1522B37580162D6DE73B4559FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A3AF272EC3CEA80ABE5A781C3D5DF3 /* Build configuration list for PBXNativeTarget "BengChuang_Sport-BengChuang_Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDDFD2B0E5DABFC8EFAE9AEEFEE19BA /* Debug */,
+				1A3573021C82E4087DF6FE40FB3D3015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446FF27387EB7CCAB386ADC66E310833 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86068055CA7896D68CA8A6BB3447ABA6 /* Debug */,
+				DBFDB8F6086375107C4AC943B36DDBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11EACC981D39BC45A510F80781790AC /* Build configuration list for PBXNativeTarget "Pods-BengChuang_Sport_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F89B100A3C6D4AF70FB78D73A92D9F /* Debug */,
+				6118F68D299672E21A9B268BA1737EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1ADA15B9E6D9C3BF1FFA8B5799E5EE7 /* Build configuration list for PBXNativeTarget "BengChuang_Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD705FF5C9FEF79D9F4B5816A14B7BD /* Debug */,
+				A97BBCFD5397565A63458B4C27F8CA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

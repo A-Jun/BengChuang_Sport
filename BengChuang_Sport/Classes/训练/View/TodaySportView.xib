@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TodaySportView" customModule="xunlian" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日运动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNh-yH-8Nm">
+                    <rect key="frame" x="12" y="12" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2210" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAo-eg-JSn">
+                    <rect key="frame" x="146.5" y="60" width="82" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="LRe-V3-AEc">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="32"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蹦跳次数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SV7-cY-0EM">
+                    <rect key="frame" x="163" y="97" width="49.5" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="Xup-iD-h5f">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="燃烧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5O-7e-FVR">
+                    <rect key="frame" x="175" y="134" width="25" height="11"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="11" id="dWb-GY-OAz">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx5-dH-GBD">
+                    <rect key="frame" x="175.5" y="158.5" width="24.5" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="gIP-Vo-Duu">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="千卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MoK-K6-US3">
+                    <rect key="frame" x="175" y="184.5" width="25" height="11"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="11" id="7ua-ny-1Vy">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUG-iF-vfE">
+                    <rect key="frame" x="62.5" y="134" width="25" height="11"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="126" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhz-fo-gvM">
+                    <rect key="frame" x="58.5" y="158.5" width="33.5" height="13"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分钟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGW-kU-E09">
+                    <rect key="frame" x="62.5" y="184.5" width="25" height="11"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最大高度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ljy-cH-QIt">
+                    <rect key="frame" x="275" y="134" width="50" height="11"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgS-t4-ui9">
+                    <rect key="frame" x="287.5" y="158.5" width="25" height="13"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="米" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43a-DC-6tr">
+                    <rect key="frame" x="294" y="184.5" width="12.5" height="11"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poS-Ko-Qc3">
+                    <rect key="frame" x="94" y="221.5" width="187.5" height="28"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="0Kx-TQ-n8y">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <state key="normal" title="运动报告3个"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="14"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sportReportClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="cBm-bK-ZiC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="43a-DC-6tr" firstAttribute="centerX" secondItem="dgS-t4-ui9" secondAttribute="centerX" id="0R6-jX-E6F"/>
+                <constraint firstItem="Z5O-7e-FVR" firstAttribute="height" secondItem="FUG-iF-vfE" secondAttribute="height" id="9GK-WK-SXB"/>
+                <constraint firstItem="WNh-yH-8Nm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="BYv-fj-Mas">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="sGW-kU-E09" firstAttribute="centerX" secondItem="dhz-fo-gvM" secondAttribute="centerX" id="BwZ-Ev-oBp"/>
+                <constraint firstItem="MoK-K6-US3" firstAttribute="centerY" secondItem="sGW-kU-E09" secondAttribute="centerY" id="CkD-mN-eTv"/>
+                <constraint firstItem="SV7-cY-0EM" firstAttribute="centerX" secondItem="rAo-eg-JSn" secondAttribute="centerX" id="DJk-wb-f8b"/>
+                <constraint firstItem="dgS-t4-ui9" firstAttribute="centerY" secondItem="Qx5-dH-GBD" secondAttribute="centerY" id="DRd-8f-GKE"/>
+                <constraint firstItem="Qx5-dH-GBD" firstAttribute="top" secondItem="Z5O-7e-FVR" secondAttribute="bottom" constant="13.5" id="E0O-l2-XvF">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="MoK-K6-US3" firstAttribute="height" secondItem="sGW-kU-E09" secondAttribute="height" id="E9y-zu-p2H"/>
+                <constraint firstItem="poS-Ko-Qc3" firstAttribute="top" secondItem="MoK-K6-US3" secondAttribute="bottom" constant="26" id="EP8-KU-voB">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="Qx5-dH-GBD" firstAttribute="height" secondItem="dhz-fo-gvM" secondAttribute="height" id="F5A-cb-ueA"/>
+                <constraint firstItem="43a-DC-6tr" firstAttribute="height" secondItem="sGW-kU-E09" secondAttribute="height" id="FrR-QR-aEM"/>
+                <constraint firstItem="rAo-eg-JSn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="Piq-bi-BAk">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="43a-DC-6tr" firstAttribute="centerY" secondItem="MoK-K6-US3" secondAttribute="centerY" id="R20-D3-84A"/>
+                <constraint firstItem="poS-Ko-Qc3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SVk-cS-vOR"/>
+                <constraint firstItem="FUG-iF-vfE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="2/5" id="Uyw-mp-UwV"/>
+                <constraint firstItem="Ljy-cH-QIt" firstAttribute="height" secondItem="FUG-iF-vfE" secondAttribute="height" id="XvW-AH-gUS"/>
+                <constraint firstItem="rAo-eg-JSn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="aqB-wl-TC8"/>
+                <constraint firstItem="WNh-yH-8Nm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="azT-3r-Egz">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="Z5O-7e-FVR" firstAttribute="centerY" secondItem="FUG-iF-vfE" secondAttribute="centerY" id="dhY-9d-8yZ"/>
+                <constraint firstItem="dgS-t4-ui9" firstAttribute="height" secondItem="dhz-fo-gvM" secondAttribute="height" id="hen-kE-4Ri"/>
+                <constraint firstItem="Ljy-cH-QIt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="8/5" id="i6b-x1-ZZv"/>
+                <constraint firstItem="Z5O-7e-FVR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="k5S-oc-JpO"/>
+                <constraint firstItem="SV7-cY-0EM" firstAttribute="top" secondItem="rAo-eg-JSn" secondAttribute="bottom" constant="9" id="lcN-eA-W8G">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="poS-Ko-Qc3" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/2" id="lgK-Jo-WR2"/>
+                <constraint firstItem="Qx5-dH-GBD" firstAttribute="centerX" secondItem="Z5O-7e-FVR" secondAttribute="centerX" id="lrT-7Y-ayb"/>
+                <constraint firstItem="Ljy-cH-QIt" firstAttribute="centerY" secondItem="Z5O-7e-FVR" secondAttribute="centerY" id="lzI-3X-BGd"/>
+                <constraint firstItem="Qx5-dH-GBD" firstAttribute="centerY" secondItem="dhz-fo-gvM" secondAttribute="centerY" id="ntY-LF-Dfe"/>
+                <constraint firstItem="Z5O-7e-FVR" firstAttribute="top" secondItem="SV7-cY-0EM" secondAttribute="bottom" constant="25" id="qPO-jx-Q4K">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="MoK-K6-US3" firstAttribute="centerX" secondItem="Qx5-dH-GBD" secondAttribute="centerX" id="qe5-kh-Scm"/>
+                <constraint firstItem="dhz-fo-gvM" firstAttribute="centerX" secondItem="FUG-iF-vfE" secondAttribute="centerX" id="tat-dc-Jrj"/>
+                <constraint firstItem="MoK-K6-US3" firstAttribute="top" secondItem="Qx5-dH-GBD" secondAttribute="bottom" constant="13" id="xGJ-7M-Gaw">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="adapterScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="dgS-t4-ui9" firstAttribute="centerX" secondItem="Ljy-cH-QIt" secondAttribute="centerX" id="yha-Kv-8gx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="calories" destination="Qx5-dH-GBD" id="Qgw-Js-cue"/>
+                <outlet property="caloriesDes" destination="Z5O-7e-FVR" id="Hc0-Ey-p0Z"/>
+                <outlet property="caloriesUnit" destination="MoK-K6-US3" id="Hcq-5D-HJ6"/>
+                <outlet property="duration" destination="dhz-fo-gvM" id="bNn-0j-qbo"/>
+                <outlet property="durationDes" destination="FUG-iF-vfE" id="BKn-jU-q2F"/>
+                <outlet property="durationUnit" destination="sGW-kU-E09" id="O6b-ba-Ks3"/>
+                <outlet property="maxHeight" destination="dgS-t4-ui9" id="cSw-xX-Mhq"/>
+                <outlet property="maxHeightDes" destination="Ljy-cH-QIt" id="w0R-N9-8x2"/>
+                <outlet property="maxHeightUnit" destination="43a-DC-6tr" id="e91-su-nQv"/>
+                <outlet property="sportReport" destination="poS-Ko-Qc3" id="XDe-P9-G6K"/>
+                <outlet property="todaySport" destination="WNh-yH-8Nm" id="7vp-d1-L6Y"/>
+                <outlet property="total" destination="rAo-eg-JSn" id="sGN-mf-9vN"/>
+                <outlet property="totalDes" destination="SV7-cY-0EM" id="O3E-Sj-2gl"/>
+            </connections>
+            <point key="canvasLocation" x="182" y="79"/>
+        </view>
+    </objects>
+</document>

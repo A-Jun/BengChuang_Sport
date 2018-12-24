@@ -1,0 +1,6 @@
+framework module BengChuang_Sport {
+  umbrella header "BengChuang_Sport-umbrella.h"
+
+  export *
+  module * { export * }
+}

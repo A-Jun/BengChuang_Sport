@@ -1,0 +1,19 @@
+PODS:
+  - BengChuang_Sport (0.1.0):
+    - CTMediator
+  - CTMediator (25)
+
+DEPENDENCIES:
+  - BengChuang_Sport (from `../`)
+
+EXTERNAL SOURCES:
+  BengChuang_Sport:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BengChuang_Sport: 450b3ca3a808681f933198f0db9f1a220a6da806
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+
+PODFILE CHECKSUM: 6c964b79f26869a81270ff214073eec935e4bf0a
+
+COCOAPODS: 1.4.0

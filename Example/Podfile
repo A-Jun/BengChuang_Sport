@@ -1,5 +1,9 @@
 use_frameworks!
 
+
+source 'https://github.com/A-Jun/XiaoYuSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'BengChuang_Sport_Example' do
   pod 'BengChuang_Sport', :path => '../'
 
